@@ -1,0 +1,98 @@
+.section3 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 42px;
+    padding: 0 153px 182px 123px;
+}
+
+.section3-text {
+    width: 363px;
+    display: flex;
+    flex-direction: column;
+    gap: 42px;
+}
+
+.section3-text>p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 75px;
+    color: #081323;
+}
+
+.section3-text>span {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    color: #4F4F4F;
+}
+
+.flowers {
+    display: flex;
+    gap: 32px;
+    position: relative;
+}
+
+.flower {
+    width: 329px;
+    height: 510.78px;
+    background: #C1D0E4;
+    border-radius: 50px;
+}
+
+.flower>img {
+    position: absolute;
+    top: -125px;
+}
+
+.flower-bottom {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 329px;
+    height: 260.73px;
+    background: #FFFFFF;
+    border-radius: 50px;
+    padding: 26px 33px 28.5px 38px;
+}
+
+.flower-title {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+}
+
+.flower-title>p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    color: #081323;
+}
+
+.flower-price {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flower-price>span {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    color: #081323;
+}
+
+.flower-price>button {
+    width: 58.67px;
+    height: 58.67px;
+    background: linear-gradient(90deg, #2AF598 0%, #009EFD 100%);
+    color: white;
+    font-size: 50px;
+    border-radius: 50%;
+    border: none;
+}

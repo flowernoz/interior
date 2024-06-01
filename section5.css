@@ -1,0 +1,66 @@
+.section5 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+    padding: 0px 118px 182px 126px;
+}
+
+.section5-left {
+    width: 735px;
+    gap: 32px;
+    display: flex;
+    flex-direction: column;
+}
+
+.section5-left>.top {
+    position: relative;
+    width: 100%;
+    height: 549px;
+    background-image: url(./img/brown-sofa-wooden-table-living-room-interior-with-plant-concrete-wall.png);
+    border-radius: 50px
+}
+
+.section5-left>.bottom {
+    position: relative;
+    width: 734px;
+    height: 404px;
+    background-image: url(./img/high-angle-desk-arrangement-with-plants.png);
+    border-radius: 50px
+}
+
+.section5-right {
+    position: relative;
+    width: 717px;
+    height: 995px;
+    background-image: url(./img/unsplash_MBsReSZ2WNM.png);
+    border-radius: 50px
+}
+.picture-darkness{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 50px;
+}
+
+b {
+    font-style: normal;
+    font-weight: 540;
+    font-size: 54px;
+    color: #FFFFFF;
+    z-index: 1;
+}
+
+.picture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    content-visibility: hidden;
+}
+
+.picture:hover {
+    content-visibility: visible;
+    background-image: rgba(0, 0, 0, 0.3);
+    opacity: 0,1;
+}

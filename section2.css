@@ -1,0 +1,27 @@
+.section2 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 104px 120px 276px 131px;
+}
+
+.offer {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 34px;
+}
+
+.offer-text>p {
+    font-weight: 500;
+    font-size: 32px;
+    color: #081323;
+    margin-bottom: 10px;
+}
+
+.offer-text>span {
+    font-weight: 500;
+    font-size: 20px;
+    color: #828282;
+}

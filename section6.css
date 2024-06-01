@@ -1,0 +1,72 @@
+.section6{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 246px;
+    padding: 0 120px 209px 125px;
+}
+.section6-left{
+    display: flex;
+    flex-direction: column;
+    gap: 82px;
+    
+}
+.header>{
+    width: 452px;
+    display: flex;
+    flex-direction: column;
+}
+.header>p{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    color: #081323;
+    margin-bottom: 28px;
+}
+
+.header>span{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color: #4F4F4F;
+}
+.sec6-left-bottom{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.instruction{
+    width: 580px;
+    display: flex;
+    justify-content: space-between;
+    gap: 28.25px;
+}
+.instruction-svg{
+    width: 59.5px;
+    height: 59.5px;
+    display: flex;
+    justify-content: center;
+}
+.instruct{
+    width: 493px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.instruct>p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+    color: #000000;
+}
+
+.instruct>span {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #4F4F4F;
+}
